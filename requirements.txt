@@ -41,3 +41,4 @@ requests
 beautifulsoup4
 ffmpeg-python
 aiofiles
+youtube_dl
