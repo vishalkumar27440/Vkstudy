@@ -640,13 +640,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n📥** 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cpw = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cyt = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cpvod = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cimg = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cczip = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc1 = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
           
                 if "drive" in url:
                     try:
@@ -761,7 +761,7 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ VISHAL KUMAR\n\n😻 Vishal नाम तो सुना होगा 😻"
+                    Show = f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂ \n\n😻 Vishal नाम तो सुना होगा 😻"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -793,7 +793,7 @@ async def upload(bot: Client, m: Message):
                        f"🔹𝗩𝗶𝗱𝗲𝗼 » {video_count}\n🔹𝗣𝗱𝗳 » {pdf_count}\n🔹𝗜𝗺𝗴 » {img_count}\n🔹𝗭𝗶𝗽 » {zip_count}\n\n"
                        f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
                        f"✅𝗦𝗧𝗔𝗧𝗨𝗦 » 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗`")
-    await m.reply_text(f"<pre><code>📥𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>")
+    await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>")
     await m.reply_text(f"<pre><code>『🦋Vishal नाम तो सुना होगा🦋』</code></pre>")                 
 
 bot.run()
