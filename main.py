@@ -303,7 +303,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ VISHAL KUMAR**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -393,7 +393,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ VISHAL KUMAR"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂ "
         )
         os.remove(file_name)
     else:
@@ -511,7 +511,7 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit("𝗡𝗼𝘄 𝗘𝗻𝘁𝗲𝗿 𝗔 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗧𝗼 𝗔𝗱𝗱 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗢𝗻 𝗬𝗼𝘂𝗿 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗙𝗶𝗹𝗲\n\n𝗘𝗴 » `𝗗𝗢𝗖𝗧𝗢𝗥_𝗝𝗕`")
+    await editable.edit("𝗡𝗼𝘄 𝗘𝗻𝘁𝗲𝗿 𝗔 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗧𝗼 𝗔𝗱𝗱 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗢𝗻 𝗬𝗼𝘂𝗿 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗙𝗶𝗹𝗲\n\n𝗘𝗴 » `VK_0786BOT`")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -526,7 +526,7 @@ async def upload(bot: Client, m: Message):
     pw_token = input4.text
     await input4.delete(True)
     
-    await editable.edit("𝗡𝗼𝘄 𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗧𝗵𝘂𝗺𝗯 𝗨𝗿𝗹 𝗘𝗴 » https://i.ibb.co/Zz4QFbj4/884e633a1139.jpg\n\n𝗢𝗿 𝗜𝗳 𝗗𝗼𝗻'𝘁 𝗪𝗮𝗻𝘁 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗦𝗲𝗻𝗱 = 𝗻𝗼")
+    await editable.edit("𝗡𝗼𝘄 𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗧𝗵𝘂𝗺𝗯 𝗨𝗿𝗹 𝗘𝗴 » https://i.ibb.co/YBHPKbw7/x.jpg\n\n𝗢𝗿 𝗜𝗳 𝗗𝗼𝗻'𝘁 𝗪𝗮𝗻𝘁 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗦𝗲𝗻𝗱 = 𝗻𝗼")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -640,13 +640,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💙.mkv\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💙.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📬𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** » {b_name}</code></pre>\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💙.mp4\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📬𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** »{b_name}</code></pre>\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💙.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📬𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** »{b_name}</code></pre>\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💙.jpg\n\n\n**<pre><code>📬 𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** » {b_name}</code></pre>\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💙.zip\n\n\n**<pre><code>📬 𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** » {b_name}</code></pre>\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💙.pdf\n\n\n**<pre><code>📬 𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞** » {b_name}</code></pre>\n\n\n📥** 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**🎥𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n📥** 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
           
                 if "drive" in url:
                     try:
