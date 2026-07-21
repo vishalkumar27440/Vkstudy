@@ -33,3 +33,11 @@ m3u8
 bs4
 pytube
 cloudscraper
+pyrogram
+tgcrypto
+pyromod
+aiohttp
+requests
+beautifulsoup4
+ffmpeg-python
+aiofiles
