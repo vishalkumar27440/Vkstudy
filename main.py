@@ -118,17 +118,17 @@ keyboard = InlineKeyboardMarkup(
 image_urls = [
     "https://telegra.ph/file/8c5508b72813779c01fc1-33bb0cc359227e2d2f.jpg",
     "https://telegra.ph/file/8c5508b72813779c01fc1-33bb0cc359227e2d2f.jpg",
-    "https://telegra.ph/file/0bcc6adb0b341977b2aef-37f54539ac8b654400.jpg",
-    "https://telegra.ph/file/6fc936d087133401113e9-14080dda99cb1fc9d8.jpg",
-    "https://telegra.ph/file/6fc936d087133401113e9-14080dda99cb1fc9d8.jpg",
-    "https://telegra.ph/file/45b82b3eb467e1bd703c9-00040478e4949fc688.jpg",
-    "https://telegra.ph/file/45b82b3eb467e1bd703c9-00040478e4949fc688.jpg",
-    "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg",
-    "https://telegra.ph/file/3f5545f0dbc2bc66ae887-e3e34ecd79e56426b0.jpg",
-    "https://telegra.ph/file/0bcc6adb0b341977b2aef-37f54539ac8b654400.jpg",
-    "https://telegra.ph/file/9fb6bcb0ae6dbc36d76b7-6145bc42ae43d56341.jpg",
-    "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg",
-    "https://telegra.ph/file/8c5508b72813779c01fc1-33bb0cc359227e2d2f.jpg",
+    "https://telegra.ph/file/c31686756b71a0c1aab13-33e2465120f57c2a70.jpg",
+    "https://telegra.ph/file/567bda1945c717519e5bc-ae23fd31796231c5bf.jpg",
+    "https://telegra.ph/file/badc46e24928b0efa4ca9-9bfac2a3382b30153e.jpg",
+    "https://telegra.ph/file/513781fc10729ce618f65-82e00d1e4b19bd50dd.jpg",
+    "https://telegra.ph/file/513781fc10729ce618f65-82e00d1e4b19bd50dd.jpg",
+    "https://telegra.ph/file/b8df9ace048c6eb308e3b-dd6f7a4899e6deacb7.jpg",
+    "https://telegra.ph/file/c31686756b71a0c1aab13-33e2465120f57c2a70.jpg",
+    "https://telegra.ph/file/567bda1945c717519e5bc-ae23fd31796231c5bf.jpg",
+    "https://telegra.ph/file/badc46e24928b0efa4ca9-9bfac2a3382b30153e.jpg",
+    "https://telegra.ph/file/badc46e24928b0efa4ca9-9bfac2a3382b30153e.jpg",
+    "https://telegra.ph/file/513781fc10729ce618f65-82e00d1e4b19bd50dd.jpg",
     # Add more image URLs as needed
 ]
 random_image_url = random.choice(image_urls) 
