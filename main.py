@@ -43,9 +43,9 @@ from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
-pwimg = "https://graph.org/file/8add8d382169e326f67e0-3bf38f92e52955e977.jpg"
-#ytimg = "https://graph.org/file/3aa806c302ceec62e6264-60ced740281395f68f.jpg"
-cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"  
+pwimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
+#ytimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
+cpimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"  
 
 # Define the owner's user ID
 OWNER_ID = 7578460365 # Replace with the actual owner's user ID
@@ -116,8 +116,8 @@ keyboard = InlineKeyboardMarkup(
     
 # Image URLs for the random image feature
 image_urls = [
-    "https://graph.org/file/996d4fc24564509244988-a7d93d020c96973ba8.jpg",
-    "https://graph.org/file/96d25730136a3ea7e48de-b0a87a529feb485c8f.jpg",
+    "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg",
+    "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg",
     "https://graph.org/file/6593f76ddd8c735ae3ce2-ede9fa2df40079b8a0.jpg",
     "https://graph.org/file/a5dcdc33020aa7a488590-79e02b5a397172cc35.jpg",
     "https://graph.org/file/0346106a432049e391181-7560294e8652f9d49d.jpg",
