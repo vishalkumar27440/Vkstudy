@@ -648,13 +648,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cimg = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cczip = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cc1 = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » **{subject_name}</code></pre>**\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cimg = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cczip = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc1 = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
           
                 if "drive" in url:
                     try:
