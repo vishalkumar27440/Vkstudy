@@ -485,7 +485,15 @@ async def upload(bot: Client, m: Message):
         b_name = file_name
     else:
         b_name = raw_text0
-    
+
+    await editable.edit("📚 𝗘𝗻𝘁𝗲𝗿 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 𝗡𝗮𝗺𝗲 📚")
+input_subject: Message = await bot.listen(editable.chat.id)
+raw_subject = input_subject.text
+await input_subject.delete(True)
+if raw_subject == "1":
+    subject_name = "subject_name"  
+else:
+    subject_name = raw_subject
 
     await editable.edit("**📸 𝗘𝗻𝘁𝗲𝗿 𝗥𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 📸**\n➤ `144`\n➤ `240`\n➤ `360`\n➤ `480`\n➤ `720`\n➤ `1080`")
     input2: Message = await bot.listen(editable.chat.id)
@@ -640,13 +648,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cpw = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cyt = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cpvod = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cimg = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cczip = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cc1 = f'**🏷️𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cimg = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cczip = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc1 = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🎓𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
           
                 if "drive" in url:
                     try:
