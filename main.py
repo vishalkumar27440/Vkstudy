@@ -48,12 +48,12 @@ pwimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
 cpimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"  
 
 # Define the owner's user ID
-OWNER_ID = 7578460365 # Replace with the actual owner's user ID
+OWNER_ID = 8032590813 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [8032590813,7846814809]
+SUDO_USERS = [7578460365]
 
-AUTH_CHANNEL = -1002661514525,-1002872287738,-1002523713551
+AUTH_CHANNEL = -1002661514525
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
