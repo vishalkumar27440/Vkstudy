@@ -487,13 +487,13 @@ async def upload(bot: Client, m: Message):
         b_name = raw_text0
 
     await editable.edit("📚 𝗘𝗻𝘁𝗲𝗿 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 𝗡𝗮𝗺𝗲 📚")
-input_subject: Message = await bot.listen(editable.chat.id)
-raw_subject = input_subject.text
-await input_subject.delete(True)
-if raw_subject == "1":
-    subject_name = "subject_name"  
-else:
-    subject_name = raw_subject
+    input_subject: Message = await bot.listen(editable.chat.id)
+    raw_subject = input_subject.text
+    await input_subject.delete(True)
+    if raw_subject == "1":
+        subject_name = "subject_name"  
+    else:
+        subject_name = raw_subject
 
     await editable.edit("**📸 𝗘𝗻𝘁𝗲𝗿 𝗥𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 📸**\n➤ `144`\n➤ `240`\n➤ `360`\n➤ `480`\n➤ `720`\n➤ `1080`")
     input2: Message = await bot.listen(editable.chat.id)
