@@ -754,11 +754,6 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         count += 1
                         continue
-                        
-                 async def show_random_emojis(message):
-                        emojis = ['🐅', '🦋', '🔮', '🦧', '⚡️', '🚀', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🦥','🦁']
-                        emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
-                        return emoji_message      
                      
                     elif ".pdf" in url:
                     try:
