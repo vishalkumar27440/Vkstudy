@@ -47,6 +47,11 @@ pwimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
 #ytimg = "https://telegra.ph/file/9fb6bcb0ae6dbc36d76b7-6145bc42ae43d56341.jpg"
 cpimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
 
+async def show_random_emojis(message):
+    emojis = ['🐅', '🦋', '🔮', '🦧', '⚡️', '🚀', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🦥','🦁']
+    emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
+    return emoji_message
+    
 # Define the owner's user ID
 OWNER_ID = 8032590813 # Replace with the actual owner's user ID
 
