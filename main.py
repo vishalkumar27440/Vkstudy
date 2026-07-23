@@ -747,31 +747,31 @@ async def upload(bot: Client, m: Message):
                         continue
                 
                 elif ".zip" in url:
-                    try:
+                     try:
                         cmd = f'yt-dlp -o "{name}.zip" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
                         os.system(download_cmd)
                         copy = await bot.send_document(chat_id=m.chat.id, document=f'{name}.zip', caption=cczip)
                         count += 1
                         os.remove(f'{name}.zip')
-                    except FloodWait as e:
+                   except FloodWait as e:
                         await m.reply_text(str(e))
                         time.sleep(e.x)
                         count += 1
                         continue
-                     
-                    elif ".pdf" in url:
+
+                elif ".pdf" in url:
                     try:
-                        cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
-                        download_cmd = f"{cmd} -R 25 --fragment-retries 25"
-                        os.system(download_cmd)
-                        copy = await bot.send_document(chat_id=m.chat.id, document=f'{name}.pdf', caption=cc1)
-                        count += 1
-                        os.remove(f'{name}.pdf')
+                       cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
+                       download_cmd = f"{cmd} -R 25 --fragment-retries 25"
+                       os.system(download_cmd)
+                       copy = await bot.send_document(chat_id=m.chat.id, document=f'{name}.pdf', caption=cc1)
+                       count += 1
+                       os.remove(f'{name}.pdf')
                     except FloodWait as e:
-                        await m.reply_text(str(e))
-                        time.sleep(e.x)
-                        continue
+                       await m.reply_text(str(e))
+                       time.sleep(e.x)
+                       continue
                 else:
                     Show = f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂ \n\n😻 Vishal नाम तो सुना होगा 😻"
                     prog = await m.reply_text(Show)
