@@ -773,7 +773,7 @@ async def upload(bot: Client, m: Message):
                        time.sleep(e.x)
                        continue
                 else:
-                    Show =  f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ VISHAL KUMAR\n\n😻 Vishal नाम तो सुना होगा 😻"
+                    Show =  f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂\n\n😻 Vishal नाम तो सुना होगा 😻"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
