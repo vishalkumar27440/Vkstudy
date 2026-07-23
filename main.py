@@ -142,6 +142,7 @@ caption = (
         "**ʜᴇʟʟᴏ👋**\n\n"
         "☆ **ɪ ᴀᴍ VK ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
         "☆ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
+        "☆ **⬩➤ᴡᴀɴɴᴀ ᴀ ᴘʀᴇᴍɪᴜᴍ? ᴄᴏɴᴛᴀᴄᴛ:@VK_0786BOT 
 )
     
 # Start command handler
@@ -652,13 +653,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » **{subject_name}</code></pre>**\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
-                cimg = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cczip = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
-                cc1 = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🏡 𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » **{subject_name}</code></pre>**\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cimg = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK❤‍🔥.jpg\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cczip = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK💖.zip\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
+                cc1 = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.VK♨️.pdf\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** »  **{raw_text3}**'
           
                 if "drive" in url:
                     try:
@@ -760,7 +761,12 @@ async def upload(bot: Client, m: Message):
                         count += 1
                         continue
                         
-                elif ".pdf" in url:
+                 async def show_random_emojis(message):
+                        emojis = ['🐅', '🦋', '🔮', '🦧', '⚡️', '🚀', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🦥','🦁']
+                        emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
+                        return emoji_message      
+                     
+                    elif ".pdf" in url:
                     try:
                         cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
