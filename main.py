@@ -779,13 +779,13 @@ async def upload(bot: Client, m: Message):
                        f"**🔗 Total URL:** {len(links)}\n\n"
                        f"**❄ Quality:** {res}\n\n"
                        f"**🤖 Bot Made By:**𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂ "
-                    prog = await m.reply_text(Show)
-                    res_file = await helper.download_video(url, cmd, name)
-                    filename = res_file
-                    await prog.delete(True)
-                    await helper.send_vid(bot, m, cc, filename, thumb, name, prog)
-                    count += 1
-                    time.sleep(1)
+                       prog = await m.reply_text(Show)
+                       res_file = await helper.download_video(url, cmd, name)
+                       filename = res_file
+                       await prog.delete(True)
+                       await helper.send_vid(bot, m, cc, filename, thumb, name, prog)
+                       count += 1
+                       time.sleep(1)
 
             except Exception as e:
                 await m.reply_text(f'‼️𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗙𝗮𝗶𝗹𝗲𝗱‼️\n\n'
