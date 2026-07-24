@@ -48,7 +48,7 @@ pwimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
 cpimg = "https://telegra.ph/file/f4609b22074c0e54947bd-a5117dbd2079cf10e4.jpg"
 
 async def show_random_emojis(message):
-    emojis = ['🐅', '🦋', '🔮', '🦧', '⚡️', '🚀', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🦥','🦁']
+    emojis = ['🎊','🐅', '🦋', '🔮', '🦧', '⚡️', '🚀', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🦥','🦁']
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
@@ -808,9 +808,7 @@ async def upload(bot: Client, m: Message):
                        f"🔹𝗩𝗶𝗱𝗲𝗼 » {video_count}\n🔹𝗣𝗱𝗳 » {pdf_count}\n🔹𝗜𝗺𝗴 » {img_count}\n🔹𝗭𝗶𝗽 » {zip_count}\n\n"
                        f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
                        f"✅𝗦𝗧𝗔𝗧𝗨𝗦 » 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗`")
-    await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>")
-    await m.reply_text(f"<pre><code>『🦋Vishal नाम तो सुना होगा🦋』</code></pre>")                 
-
+    await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>"    
 bot.run()
 if __name__ == "__main__":
     asyncio.run(main())
