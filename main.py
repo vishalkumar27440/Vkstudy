@@ -652,7 +652,7 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » **{subject_name}</code></pre>**\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
+                cc = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🔥.mkv\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » **{b_name}</code></pre>**\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
                 #cpw = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK❤‍🩹.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 » {b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
                 #cyt = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💝.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
                 cpvod = f'**🏷️ 𝗜ɴᴅᴇ𝘅 𝗜𝗗:** {str(count).zfill(3)}.**\n\n**🎬 𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** » {name1}.({res}).VK💓.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 » <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>🏡𝗦𝘂𝗯𝗷𝗲𝗰𝘁 » {subject_name}</code></pre>\n\n🎓 𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 »{b_name}</code></pre>\n\n**📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆** » **{raw_text3}**'
@@ -773,11 +773,14 @@ async def upload(bot: Client, m: Message):
                        time.sleep(e.x)
                        continue
                 else:
-                    Show =  f"**🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚🚀**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂\n\n😻 Vishal नाम तो सुना होगा 😻"
+                    emoji_message = await show_random_emojis(message)
+                    remaining_links = len(links) - count
+                    Show = f"🚀𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🚀\n\n📝ɴᴀᴍᴇ »  {name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐕𝐈𝐒𝐇𝚲𝐋ᥫᩣ𝗞ᴜ֟፝м𝚲᰻⃪᱂"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
+                    await emoji_message.delete()
                     await helper.send_vid(bot, m, cc, filename, thumb, name, prog)
                     count += 1
                     time.sleep(1)
